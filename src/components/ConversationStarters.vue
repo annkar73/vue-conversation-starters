@@ -36,7 +36,6 @@ h2 {
     color: white;
     background-color: darkcyan;
     width: 380px;
-    align-self: flex-end;
 }
 
 .description {
