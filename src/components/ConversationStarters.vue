@@ -14,7 +14,7 @@ const getRandomStarter = () => {
     <div class="conversation-starter">
         <h2>Konversationsstartare</h2>
         <div class="description">
-            <p>Är det svårt att komma på vad ni ska prata om? Är du trött på att alltid pratas om vädret eller att ständigt få höra anekdoter om andras ungar? </p> 
+            <p>Är det svårt att komma på vad ni ska prata om? Är du trött på att det alltid pratas om vädret, eller att ständigt få höra anekdoter om andras ungar eller husdjur? Kanske är det så att det bara är svårt att komma på något att prata om med en ny bekant?</p> 
             <p>Slumpa fram ett nytt samtalsämne genom att trycka på knappen.</p>
 
         </div>
@@ -33,34 +33,31 @@ const getRandomStarter = () => {
 }
 h2 {
     margin-bottom: 25px;
-    margin-right: -25px;
     color: white;
     background-color: darkcyan;
     width: 380px;
-    border-radius: 25px 0 0 25px;
     align-self: flex-end;
 }
 
 .description {
     background-color: white;
-    padding: 10px;
+    color: black;
+    padding: 15px;
     font-size: 1em;
     margin: 5px;
     margin-bottom: 20px;
     text-align: left;
     max-width: 300px;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .container {
     width: 300px;
     height: 250px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 30px 20px;
     background-color: white;
     color: black;
-    align-content: center;
-    justify-content: center;
     font-size: 1.2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 20px;
@@ -69,15 +66,19 @@ h2 {
     border-top: 5px dotted darkcyan;
     border-bottom: 5px dotted darkcyan;
     resize: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
 }
 button {
     padding: 10px 20px;
     width: 300px;
-    height: 50px;
-    font-size: 1em;
+    height: 75px;
+    font-size: 1.2em;
     border: none;
     border-radius: 8px;
-    background-color: pink;
+    background-color: lightseagreen;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -86,7 +87,7 @@ button {
     transition: background-color 0.3s;
 }
 button:hover {
-    background-color: hotpink;
+    background-color: darkcyan;
     color: white;
 }
 </style>
