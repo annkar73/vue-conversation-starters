@@ -33,10 +33,14 @@ const getRandomStarter = () => {
 }
 h2 {
     margin-bottom: 25px;
+    margin-right: -25px;
     color: white;
     background-color: darkcyan;
-    width: 384px
+    width: 380px;
+    border-radius: 25px 0 0 25px;
+    align-self: flex-end;
 }
+
 .description {
     background-color: white;
     padding: 10px;
@@ -55,10 +59,15 @@ h2 {
     padding: 20px;
     background-color: white;
     color: black;
+    align-content: center;
+    justify-content: center;
     font-size: 1.2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 8px;
-    border: 5px dotted darkcyan;
+    border-radius: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: 5px dotted darkcyan;
+    border-bottom: 5px dotted darkcyan;
     resize: none;
 }
 button {
