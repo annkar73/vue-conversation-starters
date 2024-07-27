@@ -144,7 +144,7 @@ h3 {
   padding: 20px;
   background-color: transparent;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: none;
   display: flex;
