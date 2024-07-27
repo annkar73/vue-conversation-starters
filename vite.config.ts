@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/conversation-starters/',
+  base: '/vue-conversation-starters/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
