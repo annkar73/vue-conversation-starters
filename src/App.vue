@@ -20,6 +20,7 @@ html, body, #app {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #fcfcfc;
 }
 #app {
   display: flex;
@@ -27,7 +28,7 @@ html, body, #app {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: white;
+  background-color: #fcfcfc;
   color: #333;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
